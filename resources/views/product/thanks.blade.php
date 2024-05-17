@@ -4,8 +4,8 @@
    }
 
 body{
-   
-   
+
+
 }
 
 .parent{
@@ -28,7 +28,7 @@ body{
     <title>Thank You</title>
 </head>
     <body>
-        <form action="{{route('product.index')}}" class="parent" method="post">
+        <form action="{{route('product.index')}}" class="parent" method="GET">
             <h1>Thank You For Purchasing :)</h1>
         <br>
         <br>

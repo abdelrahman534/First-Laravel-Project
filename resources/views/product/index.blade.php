@@ -1,13 +1,13 @@
 <style>
-     *{
+    * {
         text-align: center
     }
 
-    body{
+    body {
         background-color: rgb(79, 170, 140)
     }
-    
-    </style>
+
+</style>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,20 +18,21 @@
     <title>Main Page</title>
 </head>
 <body>
-    <h1>products</h1>
-    <div><em>Welcome to the webpage</em></div>
-    <br>
-    <div>
-        <!-- Button to navigate to the create view -->
+<h1>products</h1>
+<div><em>Welcome to the webpage</em></div>
+<br>
+<div>
+    <!-- Button to navigate to the create view -->
     <a href="{{ route('product.create') }}">
         <button>Create Product</button>
     </a>
-    </div>
-    <div>
-        <!-- Add this button to navigate to all products page -->
-        <a href="{{ route('product.all') }}" class="btn-primary">View All Products</a>
-       
+</div>
+<div>
+    <!-- Add this button to navigate to all products page -->
+    <br>
+    <a href="{{ route('product.all') }}" class="btn-primary"><button>View All Products</button></a>
 
-    </div>
+
+</div>
 </body>
 </html>
